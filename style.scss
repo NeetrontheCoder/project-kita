@@ -1,0 +1,103 @@
+
+@import "./font";
+
+
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  }
+
+body {
+  min-height: 90vh;
+  width: 90vw;
+  background-image: url(/images/balloons3.jpg);
+  background-position: center;
+  background-size: cover;
+
+  main{ 
+    padding: 10vh 5vw 20vh 15vw;
+   
+
+    h1{
+      font-family: 'Gloria Hallelujah', cursive;
+      -webkit-text-fill-color:#F9F0E1 ;
+      -webkit-text-stroke-color: black;
+      -webkit-text-stroke-width: 2.00px; 
+      text-align: center;
+      font-size: 100px;
+      font-weight: 900;
+      margin: 100px auto auto;
+      padding-bottom: 50px;
+    }
+    
+
+    .card{
+      background-color: #F7F2EE;
+      display: flex;
+      height: 150px;
+      width: 150px;
+      border-radius: 50px;
+      box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+      cursor: pointer;
+      transition: 0.4s;
+
+      h5{
+        font-family:'Sacramento', cursive;
+        font-size: $f-small;
+        text-align: center;
+      }
+
+      p{
+        font-size: $f-tiny;
+      }
+        
+
+      #news-icon::before {
+        font-family: "fontawesome";
+        content: "\f1ea";
+        text-decoration: none;
+      }
+
+      #calendar-icon::before{
+        font-family: "fontawesome";
+        content: "\f073";
+        text-decoration: none;
+      }
+
+      #checklist-icon::before{
+        font-family: "fontawesome";
+        content: "\f0ca";
+        text-decoration: none;
+      }
+
+      #carrot-icon::before{
+        font-family: "fontawesome";
+        content: "\f787";
+        text-decoration: none;
+      }
+
+      .icon::before {
+        margin: 0px 40px 20px 40px;
+        color: #50a391;
+        font-size: 30px;
+        
+      }
+
+      .icon:hover::before {
+        color: #F09774;
+        
+      }
+      
+    
+    }
+  }
+
+}
+
+  
+
+
+
