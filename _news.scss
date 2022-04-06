@@ -1,0 +1,57 @@
+#bodynews {
+    min-height: 90vh;
+    width: 90vw;
+    background-image: url(/images/balloons3.jpg);
+    background-position: center;
+    background-size: cover;
+
+    .nav{
+        font-family: 'Gloria Hallelujah', cursive;
+        color: #F9F0E1;
+        background-color: #f7f2eead;
+        width: 100vw;
+
+        a{
+            color: #81b7aa;
+        }
+
+        .active{
+            background-color: #81b7aa ;
+            color: #F7F2EE;
+        }
+    }
+
+    .card{
+        font-size: $f-tiny;
+        background-color: #F7F2EE;
+        display: flex;
+        height: 200px;
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+        cursor: pointer;
+        transition: 0.4s;
+        margin-left: 20vw;
+        margin-top: 10vh;
+
+        h5{
+            font-family:'Sacramento', cursive;
+            font-size: $f-smaller;
+           
+        }
+    }
+    
+    h1{
+        font-family: 'Gloria Hallelujah', cursive;
+        -webkit-text-fill-color:#F9F0E1 ;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 2.00px; 
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+        margin: 20px auto auto;
+        padding-bottom: 10px;
+        }
+          
+   
+}

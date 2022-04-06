@@ -1,4 +1,264 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Inknut+Antiqua:wght@300&family=Sacramento&display=swap");
+#bodycalendar {
+  min-height: 90vh;
+  width: 90vw;
+  background-image: url(/images/balloons3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#bodycalendar .nav {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #F9F0E1;
+  background-color: #f7f2eead;
+  width: 100vw;
+}
+
+#bodycalendar .nav a {
+  color: #81b7aa;
+}
+
+#bodycalendar .nav .active {
+  background-color: #81b7aa;
+  color: #F7F2EE;
+}
+
+#bodycalendar h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  -webkit-text-fill-color: #F9F0E1;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2.00px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 20px auto auto;
+  padding-bottom: 10px;
+}
+
+#bodycalendar .calendar iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+          box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-left: 27vw;
+  margin-top: 5vh;
+}
+
+#bodychecklist {
+  min-height: 90vh;
+  width: 90vw;
+  background-image: url(/images/balloons3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#bodychecklist .nav {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #F9F0E1;
+  background-color: #f7f2eead;
+  width: 100vw;
+}
+
+#bodychecklist .nav a {
+  color: #81b7aa;
+}
+
+#bodychecklist .nav .active {
+  background-color: #81b7aa;
+  color: #F7F2EE;
+}
+
+#bodychecklist .card {
+  font-size: 8px;
+  background-color: #F7F2EE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 350px;
+  width: 500px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+          box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-left: 25vw;
+}
+
+#bodychecklist .card .plus-minus-input {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#bodychecklist .card .plus-minus-input .input-group-field {
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+#bodychecklist .card .plus-minus-input .input-group-field::-webkit-inner-spin-button,
+#bodychecklist .card .plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+#bodychecklist .card .plus-minus-input .input-group-button .circle {
+  border-radius: 50%;
+  padding: 0.25em 0.8em;
+}
+
+#bodychecklist .card p {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#bodychecklist h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  -webkit-text-fill-color: #F9F0E1;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2.00px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 20px auto auto;
+  padding-bottom: 10px;
+}
+
+#bodymenu {
+  min-height: 90vh;
+  width: 90vw;
+  background-image: url(/images/balloons3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#bodymenu .nav {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #F9F0E1;
+  background-color: #f7f2eead;
+  width: 100vw;
+}
+
+#bodymenu .nav a {
+  color: #81b7aa;
+}
+
+#bodymenu .nav .active {
+  background-color: #81b7aa;
+  color: #F7F2EE;
+}
+
+#bodymenu .card {
+  font-size: 8px;
+  background-color: #F7F2EE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+          box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-left: 3vw;
+  margin-top: 10vh;
+}
+
+#bodymenu .card h5 {
+  font-family: 'Sacramento', cursive;
+  font-size: 18px;
+}
+
+#bodymenu h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  -webkit-text-fill-color: #F9F0E1;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2.00px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 20px auto auto;
+  padding-bottom: 10px;
+}
+
+#bodymenu .input-group {
+  font-size: 8px;
+  margin-left: 10vw;
+  margin-top: 50px;
+  width: 70vw;
+}
+
+#bodynews {
+  min-height: 90vh;
+  width: 90vw;
+  background-image: url(/images/balloons3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#bodynews .nav {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #F9F0E1;
+  background-color: #f7f2eead;
+  width: 100vw;
+}
+
+#bodynews .nav a {
+  color: #81b7aa;
+}
+
+#bodynews .nav .active {
+  background-color: #81b7aa;
+  color: #F7F2EE;
+}
+
+#bodynews .card {
+  font-size: 8px;
+  background-color: #F7F2EE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+          box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-left: 20vw;
+  margin-top: 10vh;
+}
+
+#bodynews .card h5 {
+  font-family: 'Sacramento', cursive;
+  font-size: 18px;
+}
+
+#bodynews h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  -webkit-text-fill-color: #F9F0E1;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2.00px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 20px auto auto;
+  padding-bottom: 10px;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -24,9 +284,9 @@ body main h1 {
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 2.00px;
   text-align: center;
-  font-size: 100px;
+  font-size: 72px;
   font-weight: 900;
-  margin: 100px auto auto;
+  margin: 20px auto auto;
   padding-bottom: 50px;
 }
 
@@ -55,28 +315,28 @@ body main .card p {
   font-size: 8px;
 }
 
+body main .card a {
+  text-decoration: none;
+}
+
 body main .card #news-icon::before {
   font-family: "fontawesome";
   content: "\f1ea";
-  text-decoration: none;
 }
 
 body main .card #calendar-icon::before {
   font-family: "fontawesome";
   content: "\f073";
-  text-decoration: none;
 }
 
 body main .card #checklist-icon::before {
   font-family: "fontawesome";
   content: "\f0ca";
-  text-decoration: none;
 }
 
 body main .card #carrot-icon::before {
   font-family: "fontawesome";
   content: "\f787";
-  text-decoration: none;
 }
 
 body main .card .icon::before {

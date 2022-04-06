@@ -1,0 +1,49 @@
+#bodycalendar {
+    min-height: 90vh;
+    width: 90vw;
+    background-image: url(/images/balloons3.jpg);
+    background-position: center;
+    background-size: cover;
+
+    .nav{
+        font-family: 'Gloria Hallelujah', cursive;
+        color: #F9F0E1;
+        background-color: #f7f2eead;
+        width: 100vw;
+
+        a{
+            color: #81b7aa;
+        }
+
+        .active{
+            background-color: #81b7aa ;
+            color: #F7F2EE;
+        }
+    }
+
+    h1{
+        font-family: 'Gloria Hallelujah', cursive;
+        -webkit-text-fill-color:#F9F0E1 ;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 2.00px; 
+        text-align: center;
+        font-size: 40px;
+        font-weight: 900;
+        margin: 20px auto auto;
+        padding-bottom: 10px;
+    }
+    .calendar{
+        iframe {
+            display: flex;
+            height: 300px;
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px 4px rgba(175, 128, 134, 0.25), -5px -5px 5px 4px rgba(175, 128, 134, 0.22);
+            cursor: pointer;
+            transition: 0.4s;
+            margin-left: 27vw;
+            margin-top: 5vh;
+            }
+    }
+
+}

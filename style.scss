@@ -1,5 +1,10 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Inknut+Antiqua:wght@300&family=Sacramento&display=swap");
 @import "./font";
+@import "./calendar";
+@import "./checklist";
+@import "./lunch-menu";
+@import "./news";
+
 
 
 
@@ -16,6 +21,7 @@ body {
   background-image: url(/images/balloons3.jpg);
   background-position: center;
   background-size: cover;
+  
 
   main{ 
     padding: 10vh 5vw 20vh 15vw;
@@ -27,9 +33,9 @@ body {
       -webkit-text-stroke-color: black;
       -webkit-text-stroke-width: 2.00px; 
       text-align: center;
-      font-size: 100px;
+      font-size: $f-huge;
       font-weight: 900;
-      margin: 100px auto auto;
+      margin: 20px auto auto;
       padding-bottom: 50px;
     }
     
@@ -54,29 +60,31 @@ body {
         font-size: $f-tiny;
       }
         
-
+      a {
+        text-decoration: none;
+      }
       #news-icon::before {
         font-family: "fontawesome";
         content: "\f1ea";
-        text-decoration: none;
+        
       }
 
-      #calendar-icon::before{
+      #calendar-icon::before {
         font-family: "fontawesome";
         content: "\f073";
-        text-decoration: none;
+        
       }
 
-      #checklist-icon::before{
+      #checklist-icon::before {
         font-family: "fontawesome";
         content: "\f0ca";
-        text-decoration: none;
+        
       }
 
-      #carrot-icon::before{
+      #carrot-icon::before {
         font-family: "fontawesome";
         content: "\f787";
-        text-decoration: none;
+        
       }
 
       .icon::before {
@@ -87,8 +95,7 @@ body {
       }
 
       .icon:hover::before {
-        color: #F09774;
-        
+        color: #F09774;  
       }
       
     
